@@ -1,0 +1,39 @@
+= RPG SRD
+v1.0.0, 2023-08-28
+:doctype: book
+:front-cover-image: cover.png[,1050,1600]
+:toc: left
+:toclevels: 4
+:toc-title: Оглавление
+
+[preface]
+== ВСТУПЛЕНИЕ
+Свод правил для игры в магическом мире.
+
+Основа механики взята из Dragon Age RPG.
+
+Весь лор убран.
+
+'''
+
+include::person.adoc[leveloffset=1]
+
+'''
+
+include::magic.adoc[leveloffset=1]
+
+'''
+
+include::focus.adoc[leveloffset=1]
+
+'''
+
+include::talant.adoc[leveloffset=1]
+
+'''
+
+include::weapons.adoc[leveloffset=1]
+
+'''
+
+include::game.adoc[leveloffset=1]
