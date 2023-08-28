@@ -22,9 +22,6 @@ include::person.adoc[leveloffset=1]
 
 include::magic.adoc[leveloffset=1]
 
-'''
-
-include::focus.adoc[leveloffset=1]
 
 '''
 
@@ -32,6 +29,9 @@ include::talant.adoc[leveloffset=1]
 
 '''
 
+include::spec.adoc[leveloffset=1]
+
+'''
 include::weapons.adoc[leveloffset=1]
 
 '''
