@@ -466,7 +466,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_скорость_и_защита_defense_and_speed">СКОРОСТЬ И ЗАЩИТА (DEFENSE AND SPEED)</a></li>
 </ul>
 </li>
-<li><a href="#_магия">МАГИЯ</a></li>
+<li><a href="#_магия">МАГИЯ</a>
+<ul class="sectlevel2">
+<li><a href="#_очки_маны_mana_points">ОЧКИ МАНЫ (MANA POINTS)</a></li>
+<li><a href="#_заклинания_и_броня">ЗАКЛИНАНИЯ И БРОНЯ</a></li>
+<li><a href="#_восстановление_очков_маны">ВОССТАНОВЛЕНИЕ ОЧКОВ МАНЫ</a></li>
+<li><a href="#_чтение_заклинаний">ЧТЕНИЕ ЗАКЛИНАНИЙ</a></li>
+<li><a href="#_сила_магии_spellpower">СИЛА МАГИИ (SPELLPOWER)</a></li>
+<li><a href="#_магия_крови">МАГИЯ КРОВИ</a></li>
+</ul>
+</li>
 <li><a href="#_фокусы">ФОКУСЫ</a>
 <ul class="sectlevel2">
 <li><a href="#_фокусы_силы">ФОКУСЫ СИЛЫ</a></li>
@@ -1417,7 +1426,201 @@ Discipline).</p>
 <div class="sect1">
 <h2 id="_магия">МАГИЯ</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_очки_маны_mana_points">ОЧКИ МАНЫ (MANA POINTS)</h3>
+<div class="paragraph">
+<p>Для сотворения заклинаний нужна энергия, которой обладает каждое живое существо, известная как мана.
+Объём маны, в обычных условиях доступный магу для сотворения заклинаний, исчисляется в очках маны (Mana Points, МР).
+Чем больше МР у вас есть, тем больше заклинаний вы способны сотворить.
+Если у вас не осталось очков маны, вы не можете читать заклинания, пока не восстановите хоть некоторое количество МР.
+Маг 1 уровня начинает игру с количеством МР, равным 10 + Магия + 1к6 и получает Магия + 1к6 с каждым новым уровнем.
+Сильные маги могут творить заклинания долгое время, не истощая свои запасы маны.
+Это говорит о том, что очки маны– ресурс не бесконечный, и умный маг знает, когда тратить ману, а когда лучше поберечь.
+Каждое заклинание стоит определённое количество очков маны.
+Они тратятся каждый раз, когда совершается действие заклинания, вне зависимости от того, получилось сплести чары или нет.
+Магия всегда заставляет платить по счетам.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_заклинания_и_броня">ЗАКЛИНАНИЯ И БРОНЯ</h3>
+<div class="paragraph">
+<p>Маги могут носить броню, хотя и не обучались этому специально.
+Однако доспех затрудняет чтение заклинаний: маг вынужден тратить лишние МР, количество которых зависит от типа брони и её нагрузки (см. соответствующую таблицу).
+Эта дополнительная мана тратится на каждое заклинание, так что маг, нацепивший тяжёлую броню, быстро окажется в проигрышном положении.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Таблица 12. ЗАКЛИНАНИЯ В БРОНЕ</caption>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Надета броня</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Нагрузка</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Лёгкая кожаная</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Тяжёлая кожаная</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Лёгкая кольчуга</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Тяжёлая кольчуга</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Лёгкая пластинчатая</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Тяжёлая пластинчатая</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_восстановление_очков_маны">ВОССТАНОВЛЕНИЕ ОЧКОВ МАНЫ</h3>
+<div class="paragraph">
+<p>Маг восстанавливает очки маны после отдыха.
+За каждый полный час отдыха или медитации вы восстанавливаете 1к6 + Магия очков маны.
+Если вы будите отдыхать/медитировать полных 8 часов без перерывов, то вы восстанавливаете ману до максимума.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_чтение_заклинаний">ЧТЕНИЕ ЗАКЛИНАНИЙ</h3>
+<div class="paragraph">
+<p>Вы можете прочитать любое заклинание, сделав успешный бросок и потратив соответствующее количество очков маны.
+Бросок заклинания– обычный бросок на Магию.</p>
+</div>
+<div class="paragraph">
+<p>Обычно учитываются фокусы Магии Созидания, Магии Энтропии, Элементальной Магии и Магии Духа, каждый из которых соответствует одной из магических школ.
+Чтобы узнать больше о бросках на способности, см.
+Главу 6: Игра.</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>Бросок заклинания = 3к6 + Магия + фокус (если есть)</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Если ваш бросок равен или больше сложности (Target Number, TN), вы успешно прочитали заклинание.
+Если нет, то заклинание проваливается и не действует никак.
+Но МР тратятся в любом случае.</p>
+</div>
+<div class="paragraph">
+<p>При расчете результата некоторых заклинаний используется Кубик Дракона, так что лучше как-нибудь зафиксируйте выпавшее на нём значение, пока действие заклинания не прекратится.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_сила_магии_spellpower">СИЛА МАГИИ (SPELLPOWER)</h3>
+<div class="paragraph">
+<p>Многие заклинания таковы, что беспокоиться нужно только о броске на заклинание.
+Если он успешен, то заклинание работает, как ему положено.
+Однако иногда, чтобы заклинание произвело какое-то воздействие, вы должны преодолеть природное сопротивление цели.</p>
+</div>
+<div class="paragraph">
+<p>Сила Магии– это мощь вашего волшебства; некоторые заклинания позволяют цели (или целям) сделать бросок против Силы Магии, чтобы попытаться воспротивиться действию магии или хотя бы отчасти нейтрализовать его.</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>Сила Магии = 10 + Магия + фокус (если есть)</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>И опять повторим: обычно добавляются фокусы Магии Созидания, Магии Энтропии, Магии Элементов и Магии Духа.
+Это означает, что если вы специалист по магии энтропии, то вашим энтропическим заклинаниям тяжелее сопротивляться.</p>
+</div>
+<div class="paragraph">
+<p>Способность, с помощью которой можно сопротивляться магии, зависит от конкретного заклинания.
+В описании каждого заклинания будет указано, нужно ли делать бросок и на какую способность, и каковы последствия его успеха или провала.</p>
+</div>
 <hr>
+</div>
+<div class="sect2">
+<h3 id="_магия_крови">МАГИЯ КРОВИ</h3>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Таблица 12. Заклинания Магии Крови</caption>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Название</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TN</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">МП</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Действие</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Требование</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Тест</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Описание</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Жертва кровью</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Основное</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">специлизация Маг Крови</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Вы можете вытянуть жизнь из союзника (1ХП=1МП до 25) и восстановить свои ХП.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Раб крови</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Основное</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Кровотечение</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">сила воли (самодисциплина) vs.SP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Вы можете подчинить себе цель (у которой есть кровь) если она не пройдет проверку. Каждый новый раунд цель проходит проверку на попытку избавится от контроля. Штраф -2 к атаке если цель пыталась пройти проверку в эжтом раунде.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Кровавая рана</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">17</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Основное</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">специлизация Маг Крови</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">выносливость (запас жизненных сил) vs.SP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Все цели с кровью в радиусе 12 ярдов получаюь 1д6+Магия урона. Если провалили проверку в это раунде пропускают основное действие.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Кровотечение</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Основное</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Кровавая рана</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">выносливость (запас жизненных сил) vs.SP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Цель в 50 ярдах от вас получает 4д6+Магия урона. Если цель прошла проверку получает только 2д6. Прием Imposing Spell стоит всего 2SP.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Чтение мыслей</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">17</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 min</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">специлизация Маг Крови</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">сила воли (самодисциплина) vs.SP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Вы касаетесь цели и сосредотачиваетесь на минуту. Цель должна протий тест. Если успешно вы не можете проникнуть в ее разум, но вы можете потратить еще 5МП, чтобы снова попытаться. Если проникли то можете потребовать от ГМа, чтобы цель ответила честно на кол-во вопросов равное вашему уровню Магии (1 вопрос в минуту). Очень болезненно для цели.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Разрушение</p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<hr>
+</div>
 </div>
 </div>
 <div class="sect1">
