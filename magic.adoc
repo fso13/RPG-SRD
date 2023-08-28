@@ -90,5 +90,21 @@ include::magic/magic_blood.adoc[]
 
 '''
 
+include::magic/magic_entrop.adoc[]
+
+'''
+
+include::magic/magic_duha.adoc[]
+
+'''
+
+include::magic/magic_prirod.adoc[]
+
+'''
+
+include::magic/magic_sozidan.adoc[]
+
+'''
+
 :leveloffset: -1
 
