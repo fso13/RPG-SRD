@@ -1,11 +1,12 @@
 = RPG SRD
 v1.0.0, 2023-08-28
 :doctype: book
-:page-background-image: image:cover.png[]
-:title-page-background-image: image:cover.png[]
+:stylesheet: asciidoctor.css
 :toc: left
 :toclevels: 4
 :toc-title: Оглавление
+:table-stripes: even
+:icons:
 
 [preface]
 == ВСТУПЛЕНИЕ
@@ -16,7 +17,6 @@ v1.0.0, 2023-08-28
 
 Весь лор убран.
 
-'''
 
 include::person.adoc[leveloffset=1]
 

@@ -35,8 +35,16 @@
 
 include::levelup.adoc[]
 
+'''
+
 include::classes/mag.adoc[]
+
+'''
+
 include::classes/plut.adoc[]
+
+'''
+
 include::classes/voin.adoc[]
 
 :leveloffset: -2
