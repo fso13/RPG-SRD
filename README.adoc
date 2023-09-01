@@ -17,6 +17,12 @@ v1.0.1, 2023-08-31
 
 Весь лор убран.
 
+link:files/GM_Tablitsy.pdf[Краткий справочник правил]
+
+link:files/лист_персонажа.pdf[Лист персонажа]
+
+link:files/Развитие_персонажа.pdf[Памятка по классам]
+
 include::person.adoc[leveloffset=1]
 
 '''
@@ -38,3 +44,8 @@ include::weapons.adoc[leveloffset=1]
 '''
 
 include::game.adoc[leveloffset=1]
+
+'''
+
+include::monsters.adoc[leveloffset=1]
+
