@@ -3,23 +3,25 @@ name: build adocs
 on:
   push:
     branches:
+      - main
       - master
-
 jobs:
-  deploy-docs:
+  adoc_build:
     runs-on: ubuntu-latest
-    name: Build and deploy docs to Github pages
+    name: asciidoctor -D docs --backend=html5 -o index.html -a toc2 docs/index.adoc
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Create docs build directory
-        run: mkdir dist && chmod 777 dist
-      - name: Build docs
+        uses: actions/checkout@v4
+      - name: Get build container
         id: adocbuild
-        uses: equinor/asciidoctor-action@main
-      - name: Deploy docs to githu pages
+        uses: tonynv/asciidoctor-action@master
+        with:
+          program: "asciidoctor -D docs --backend=html5 -o index.html docs/index.adoc"
+      - name: Print execution time
+        run: echo "Time ${{ steps.adocbuild.outputs.time }}"
+      - name: Deploy docs to ghpages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_branch: gh-pages
-          publish_dir: ./dist
+          publish_dir: ./
