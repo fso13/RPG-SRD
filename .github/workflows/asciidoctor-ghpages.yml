@@ -19,12 +19,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      - name: Build HTML docs
-          id: html
-          uses: thesis/asciidoctor-action@v1.1
-          with:
-            files: 'docs/*.adoc docs/**/*.adoc'
-            args: '-a revdate=`date +%Y-%m-%d` --failure-level=ERROR'
+
       # Includes the AsciiDoctor GitHub Pages Action to convert adoc files to html and publish to gh-pages branch
       - name: asciidoctor-ghpages
         uses: manoelcampos/asciidoctor-ghpages-action@v2.3.0
