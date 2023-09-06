@@ -8,11 +8,11 @@ on:
 
 jobs:
   deploy-docs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     name: Build and deploy docs to Github pages
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Create docs build directory
         run: mkdir dist && chmod 777 dist
       - name: Build docs
