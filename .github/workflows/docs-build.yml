@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy-docs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     name: Build and deploy docs to Github pages
     steps:
       - name: Checkout code
