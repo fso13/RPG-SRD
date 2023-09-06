@@ -225,3 +225,13 @@ include::magic/magic_sozidan.adoc[]
 |===
 
 :leveloffset: -1
+
+
+[mermaid,abcd-flowchart,svg]
+....
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+....
